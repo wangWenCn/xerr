@@ -6,6 +6,7 @@ const OK int64 = 0
 // **(前3位代表业务,后三位代表具体功能)**/
 // 全局错误码
 
+const SystemError int64 = -1
 const ServerCommonError int64 = 100000
 const RequestParamError int64 = 100002
 const DBError int64 = 100005

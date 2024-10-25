@@ -7,6 +7,7 @@ var code map[string]int64
 
 func init() {
 	message = make(map[int64]string)
+	message[SystemError] = "系统报错"
 	message[ServerCommonError] = "服务器开小差啦,稍后再来试一试"
 	message[RequestParamError] = "参数不足"
 	message[DBError] = "数据库异常"
